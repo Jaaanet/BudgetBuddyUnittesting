@@ -7,12 +7,12 @@ This Work is mainly used for unittesting of the project budgetbuddy
 All tests are stored in the top-level `tests/` package:
 
 tests/
-    __init__.py
-    test_repository.py # tests for budgetbuddy.data.repository
-    test_csvio.py # tests for budgetbuddy.data.csvio
-    test_summary.py # tests for budgetbuddy.ui.summary
-    test_main.py # tests for budgetbuddy.ui.main (BudgetBuddyApp)
-    test_suite.py # combined test suite
+    __init__.py\
+    test_repository.py # tests for budgetbuddy.data.repository\
+    test_csvio.py # tests for budgetbuddy.data.csvio\
+    test_summary.py # tests for budgetbuddy.ui.summary\
+    test_main.py # tests for budgetbuddy.ui.main (BudgetBuddyApp)\
+    test_suite.py # combined test suite\
 
 
 Each test file contains a single test class:
