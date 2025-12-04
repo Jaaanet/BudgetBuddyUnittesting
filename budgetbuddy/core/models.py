@@ -59,7 +59,12 @@ class UserProfile:
         self.name = name
         #list to store transaction objects
         self.transactions = []
-        
+
+     # NEW: single-transaction helper used by the rest of the app plus tests   
+    def add_transaction(self, tx):
+        """Add a single transaction (Income or Expense)."""
+        self.transactions.append(tx)
+
     def add_transactions(self, tx):
         '''
         Add transaction to the user's profile
