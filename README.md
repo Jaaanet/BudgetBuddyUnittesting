@@ -57,7 +57,7 @@ Each class:
 
 ### Running the tests
 
-From the project root (the folder that contains `budgetbuddy/` and `tests/`):
+From the project root (the folder that contains `budgetbuddy/` and `tests/` which is `BudgetBuddyUnittesting`):
 
 **Run the combined test suite:**
 
