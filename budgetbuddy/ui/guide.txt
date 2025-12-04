@@ -1,0 +1,44 @@
+=== BudgetBuddy Guide ===
+
+BudgetBuddy helps you track your income and expenses using simple steps.
+
+1. Create a Profile
+   - Each profile is like an account.
+   - Give it a name (e.g., “Personal”, “School”, “Travel”).
+   - All your transactions are saved under this profile.
+
+2. Add Transactions
+   - Open a profile from the Saved Profiles menu.
+   - Choose "Record income" to add money you earned.
+   - Choose "Record expense" to add money you spent.
+   - Enter the date (YYYY-MM-DD), amount, category, and an optional description.
+
+3. View Monthly Summary
+   - BudgetBuddy automatically shows a summary page:
+       • Total income for the month
+       • Total expenses
+       • Net balance (income – expenses)
+       • Recent transactions
+   - You can switch months anytime using "Change month".
+
+4. Edit or Delete Transactions
+   - From the profile menu:
+       • Choose "Edit a transaction" to change any detail.
+       • Choose "Delete a transaction" to remove an item.
+
+5. Manage Profiles
+   - From the Saved Profiles menu you can:
+       • Open a profile
+       • Rename a profile
+       • Delete a profile
+   - All changes are saved automatically.
+
+6. Saving Data
+   - Your profiles and transactions are stored in a JSON file.
+   - The data is saved every time you exit or return to the main menu.
+
+Tips:
+   - Keep categories consistent (e.g., “Groceries”, “Rent”) to make summaries clearer.
+   - Check your monthly net amount to see if you are overspending or saving.
+
+Enjoy tracking your budget with BudgetBuddy!
