@@ -12,7 +12,7 @@ tests/
     test_csvio.py # tests for budgetbuddy.data.csvio\
     test_summary.py # tests for budgetbuddy.ui.summary\
     test_main.py # tests for budgetbuddy.ui.main (BudgetBuddyApp)\
-    test_suite.py # combined test suite\
+    test_suite.py # combined test suite
 
 
 Each test file contains a single test class:
