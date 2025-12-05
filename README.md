@@ -8,6 +8,8 @@ All tests are stored in the top-level `tests/` package:
 
 tests/
     __init__.py\
+    test_budget.py #tests for budgetbuddy.core.budget\
+    test_models.py #tests for budgetbuddy.core.models\
     test_repository.py # tests for budgetbuddy.data.repository\
     test_csvio.py # tests for budgetbuddy.data.csvio\
     test_summary.py # tests for budgetbuddy.ui.summary\
@@ -17,6 +19,8 @@ tests/
 
 Each test file contains a single test class:
 
+- `TestBudget` (for `budget.py`)
+- `TestUserProfile` (for `models.py`)
 - `TestRepository` (for `repository.py`)
 - `TestCsvIO` (for `csvio.py`)
 - `TestSummary` (for `summary.py`)
@@ -30,6 +34,20 @@ Each class:
 
 ### What is tested
 
+**Core package**
+
+- `test_budget.py`
+  - Calculating total income, total expenses, and net amount for given month/year (`month_totals`
+  - Returns all transactions for given month/year (`month_transactions`)
+  - Returns recent n transactions for given month/year (`recent_transactions`)
+  - Uses fake UserProfile and Transaction objects
+
+- `test_models.py`
+  - Income and Expense classes to verify get_type() gives correct type
+  - Correctly adding transactions (`add_transactions`)
+  - Correctly lists all transactions for month/year (`list_transactions`)
+  - Correctly returns recent n transactions (`recent_transactions`)
+ 
 **Data package**
 
 - `test_repository.py`
