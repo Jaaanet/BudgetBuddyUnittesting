@@ -37,7 +37,7 @@ Each class:
 **Core package**
 
 - `test_budget.py`
-  - Calculating total income, total expenses, and net amount for given month/year (`month_totals`
+  - Calculating total income, total expenses, and net amount for given month/year (`month_totals`)
   - Returns all transactions for given month/year (`month_transactions`)
   - Returns recent n transactions for given month/year (`recent_transactions`)
   - Uses fake UserProfile and Transaction objects
