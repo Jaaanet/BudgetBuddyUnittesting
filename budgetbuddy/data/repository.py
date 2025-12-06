@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from budgetbuddy.core.models import UserProfile
 
-DATA_FILE = Path("budgetbuddy_data.json")
+DATA_FILE = Path("budgetbuddy/budgetbuddy_data.json")
 
 
 def load_profiles():
