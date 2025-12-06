@@ -1,0 +1,21 @@
+commit 7a3a60f2169b882e69622daa9847e62dea411b3d (HEAD -> main, origin/main, origin/HEAD)
+Author: rmkamphuis <rmkamphuis@eastlink.ca>
+Date:   Thu Dec 4 20:02:22 2025 -0800
+
+    Update README.md
+
+commit a7ddaa3b622266f335a1b83a642402ce84ab87a6
+Author: rmkamphuis <rmkamphuis@eastlink.ca>
+Date:   Thu Dec 4 20:01:43 2025 -0800
+
+    Update README.md
+
+commit fe62cbb4077cacf75f225a109de11ee851c25e40
+Author: Rachel <rmkamp@student.ubc.ca>
+Date:   Thu Dec 4 19:46:42 2025 -0800
+
+    adding updated test_suite.py to main
+
+commit 130e8815c6506310d28e8065b7ad5829820bb957
+Author: Rachel <rmkamp@student.ubc.ca>
+Date:   Thu Dec 4 19:45:55 2025 -0800
