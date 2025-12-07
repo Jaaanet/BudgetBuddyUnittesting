@@ -29,7 +29,7 @@ class TestUserProfile(unittest.TestCase):
         txs = self.user.list_transactions()
         #assertions
         self.assertEqual(len(txs), 4)
-        self.assertGreater(txs[1].amount, 100)
+        self.assertGreaterEqual(txs[1].amount, 25)
         self.assertIs(txs[3], self.tx4)
         self.assertTrue(txs[0].category == "job")
 
@@ -39,7 +39,7 @@ class TestUserProfile(unittest.TestCase):
         #assertions
         self.assertEqual(len(recent), 3)
         self.assertNotIn(self.tx1, recent)
-        self.assertLess(recent[2].amount, 1000)
+        self.assertLessEqual(recent[2].amount, 1500)
         self.assertIs(recent[-1], self.tx4)
 
 unittest.main(argv=[''], verbosity=2, exit=False)

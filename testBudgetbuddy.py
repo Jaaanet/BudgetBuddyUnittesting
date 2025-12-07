@@ -1,0 +1,3 @@
+import budgetbuddy
+
+budgetbuddy.run()
