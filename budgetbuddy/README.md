@@ -61,6 +61,7 @@ The main data file (`budgetbuddy_data.json`) is created in the **same directory 
 
 ## Running the Program
 
+**Command-Line**
 Create a runner python file (eg. test.py) that contains:
 
 ```
@@ -71,6 +72,16 @@ and run:
 `python test.py`
 
 notes: the test file should be in the same directory as the package!
+
+**Jupyter notebook with package**
+
+Instal package first
+`pip install budgetbuddy`
+
+```
+from budgetbuddy import ui
+ui.run()
+```
 
 ## Profile Menu Example
 ```
